@@ -2,20 +2,28 @@
 
 Audio engineer for seventeen years. Writing code for thirty.
 
-I taught myself Visual Basic and C++ at nine. Since then I’ve been troubleshooting, configuring, patching, and coding through every phase of the work — not as a side hobby, as how the job actually gets done. The last four to five years are where that practice became professional audio software: plugins, real-time DSP, REAPER tooling, neural audio that still has to clear the buffer.
+Self-taught Visual Basic and C++ from age nine, then a long run of troubleshooting, configuring, patching, and coding through every phase of studio work. The last four to five years turned that practice into professional audio software: real-time DSP, CLAP/ARA plugins, REAPER tooling, and neural audio that still has to clear the buffer.
 
-Vancouver. C++ · Rust · Lua. JUCE · CLAP · NIH-plug · ReaScript · ONNX. Deepest where production fails: Mamba/SSM, ARA, on-device ML.
+Vancouver · C++ / Rust / Lua · JUCE / CLAP / ARA / ReaScript / ONNX / PyTorch (ROCm)
 
 **Available for fixed-price and hourly contracts.**
 
-### Selected work
+## What I build
 
-- Mamba/SSM real-time audio inference benchmark
-- SGM ReaPack extension for REAPER
-- CLAP specification MCP tooling
+- **State-space & neural audio** — Mamba/SSM real-time inference, on-device ML (ROCm / NPU)
+- **Plugins** — CLAP, VST3, ARA 2.0; lock-free, zero-allocation audio-thread code
+- **REAPER / ReaScript** — session generation, ReaPack tooling, workflow automation
+- **Full-stack & agents** — TypeScript / Python systems (Shopify tooling, local multi-agent orchestration)
 
-### Elsewhere
+## Selected work
 
-ORCID · _paste `https://orcid.org/…`_  
-Patreon · soon  
-Contact · GitHub, or the email on this profile
+- **CLARA** — Mamba-3 SSM audio suite (CLAP + ARA), real-time inference engine
+- **mamba-ssm-plugin-suite** — CLAP/ARA plugin with a lock-free three-thread architecture
+- **Stem Surgeon** — stem separation + MIDI transcription
+- **reaper-assets** — programmatic, validated REAPER `.rpp` session generation
+- **SteadyFlow** — auditable Shopify revenue-optimization platform
+
+## Elsewhere
+
+- GitHub org: [SGM-Studios](https://github.com/SGM-Studios)
+- Contact: GitHub, or the email on this profile
