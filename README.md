@@ -1,12 +1,12 @@
 # Scott · sgm-audio
 
-Audio engineer for seventeen years. Writing code for thirty.
+Audio Engineer and Independent Developer
 
-Self-taught Visual Basic and C++ from age nine, then a long run of troubleshooting, configuring, patching, and coding through every phase of studio work. The last four to five years turned that practice into professional audio software: real-time DSP, CLAP/ARA plugins, REAPER tooling, and neural audio that still has to clear the buffer.
+Self Taught after a long run of troubleshooting, configuring, patching, and coding through every phase of studio work. The last four to five years turned that practice into professional audio software: real-time DSP, CLAP/ARA plugins, REAPER tooling, and neural audio that still has to clear the buffer.
 
-Vancouver · C++ / Rust / Lua · JUCE / CLAP / ARA / ReaScript / ONNX / PyTorch (ROCm)
+Vancouver · Python / C++ / Rust / Lua · JUCE / CLAP / ARA / ReaScript / ONNX / PyTorch 
 
-**Available for fixed-price and hourly contracts.**
+**Available for Hire**
 
 ## What I build
 
@@ -22,8 +22,3 @@ Vancouver · C++ / Rust / Lua · JUCE / CLAP / ARA / ReaScript / ONNX / PyTorch 
 - **Stem Surgeon** — stem separation + MIDI transcription
 - **reaper-assets** — programmatic, validated REAPER `.rpp` session generation
 - **SteadyFlow** — auditable Shopify revenue-optimization platform
-
-## Elsewhere
-
-- GitHub org: [SGM-Studios](https://github.com/SGM-Studios)
-- Contact: GitHub, or the email on this profile
