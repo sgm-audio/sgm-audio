@@ -1,17 +1,4 @@
-# Scott Mills — Audio Engineer & Software Engineer
-
-Audio engineer (Berklee, Master's Certificate — Writing and Producing Music, GPA 3.7) and
-software engineer, Saskatchewan, Canada. I build audio ML and the tooling around it:
-source separation, audio-to-MIDI, transcription, and AI-music detection.
-
-I also moderate a Suno practitioner community of ~50,000 members, and I have spent two years
-attempting to validate AI-generated music — to verify it, attribute it, decompose it, and
-transcribe it. **It cannot currently be done, and the failure is structural rather than
-temporary.** My field report on that is [here](https://sgmstudios.ca/writing/what-we-could-not-verify.html).
-
-**Contact:** [sgmstudios.ca](https://sgmstudios.ca) · [scott@sgmstudios.ca](mailto:scott@sgmstudios.ca)
-
----
+# Scott Mills — Audio Engineer & Software Engineer, Saskatchewan, Canada
 
 ## The thesis in one line
 
@@ -40,9 +27,8 @@ documented. **Status:** architecture complete, training not yet run.
 Multi-engine pipeline: `SunoDetector` → Demucs → mid-side lead/rhythm split → Basic Pitch ONNX
 → dynamic-programming (Viterbi) string/fret assignment → technique heuristics → MIDI / ASCII tab
 / JSON. Eight preset profiles including a Suno-optimized path. REAPER/ReaPack integration.
-[**Live demo →**](https://scottymills-tab-agent-pro.hf.space)
 `MIT · Docker · GitHub Actions CI · pre-commit (ruff, mypy) · v1.0.0`
-**Status:** released and deployed. On AI-generated input the target object does not exist — see
+**Status:** released and deployed for testing. On AI-generated input the target object does not exist — see
 the field report.
 
 ### [hit-prompt-engine](https://github.com/sgm-audio/hit-prompt-engine) — chart history → prompt packs
@@ -73,47 +59,6 @@ LangGraph + FastAPI + Ollama. 40 specialist agents across 6 tiers, squad pipelin
 Redis sessions, ChromaDB vector memory, per-run cost reporting and audit trail.
 Documented capability graph: **1,197 nodes / 2,486 edges.**
 `Apache-2.0 · 35 commits · local inference = $0 marginal cost`
-
-### [System-Grounding](https://github.com/SGM-Studios/System-Grounding) — grounded AI queries
-Grounds model queries in verified local system state to eliminate hallucination about packages,
-configs, and services. AWS Lambda + DynamoDB Streams + CHANGE records + Next.js dashboard + MCP.
-
----
-
-## Other
-
-- [Audio-Freelance](https://github.com/sgm-audio/Audio-Freelance) — lead sourcing, scoring, and
-  market intelligence for audio/DSP/plugin developers
-- [merch-angel](https://github.com/sgm-audio/merch-angel) — image → Shopify-ready SVG batch pipeline
-- [Madify](https://github.com/sgm-audio/Madify) — local media cataloguer and metadata assistant
-- [proper-pvr](https://github.com/sgm-audio/proper-pvr) — multi-provider cable/streaming content framework
-
-## Archived / experiments
-
-- [promptVerse](https://github.com/sgm-audio/promptVerse) — Suno prompt tool, prototype stage
-- [banana-danger-index](https://github.com/sgm-audio/banana-danger-index) — peel slip-detect.
-  Cartoon physics that should exist. No further justification offered.
-
----
-
-## Commercial
-
-**[Hivyr](https://hivyr.io/)** is the licensed product: a real-time neural audio engine for
-teams that ship plugins and DAWs. Waitlist and evaluation only. What it is, and why a product
-team wants it, is on [sgmstudios.ca/hivyr](https://sgmstudios.ca/hivyr.html). Internals and
-pricing are not public.
-
----
-
-## Writing
-
-- **[What We Could Not Verify](https://sgmstudios.ca/writing/what-we-could-not-verify.html)** — AI music validation from inside a 50,000-member practitioner
-  community. Method, instruments, findings, and limits.
-- **[Can You Really Lock Music in AI?](https://sgmstudios.ca/writing/lock-music-in-ai.html)** — why stem extraction from generative audio is
-  ill-posed.
-- **[ISED submission](https://sgmstudios.ca/writing/ised-ai-transparency.html)** — public consultation on advancing AI transparency in Canada, Sept 2026.
-
----
 
 ## Working with me
 
